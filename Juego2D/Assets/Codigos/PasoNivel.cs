@@ -9,8 +9,17 @@ public class PasoNivel : MonoBehaviour
     //trigger
     private void OnTriggerEnter2D(Collider2D other){
     if(other.CompareTag("Player")){
-        Debug.Log("El malparido al fin se hizo disparar!!!");
-        SceneManager.LoadScene(numeroEscena);
+        
+        if(numeroEscena==0)
+        {
+          SceneManager.LoadScene(0);
+        }
+          else
+        {
+
+          Debug.Log("Se hizo disparar!!!"+numeroEscena);
+          SceneManager.LoadScene(numeroEscena+1);
+        }
     }
   }
 }

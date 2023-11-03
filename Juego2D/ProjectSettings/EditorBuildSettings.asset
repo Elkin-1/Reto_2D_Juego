@@ -9,7 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu0.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/URP2DSceneTemplate.unity
+    path: Assets/Scenes/Menu Principal.unity
+    guid: ab94082f870a249409cc966cb07de1e3
+  - enabled: 0
+    path: Assets/Scenes/Opertura.unity
+    guid: 6bdc8b87e92e52a4a92ce1f1c00d6b07
+  - enabled: 0
+    path: Assets/Scenes/Niveles.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Nivel1.unity

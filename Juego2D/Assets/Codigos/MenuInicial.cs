@@ -14,19 +14,30 @@ public class MenuInicial : MonoBehaviour
 
     public void Salir()
     {
+        Debug.Log("he salido del jueguito ese...XD");
         Application.Quit();
     }
-    public void NivelUno()
+
+    public void Volver()
+    {
+        SceneManager.LoadScene(0);
+    }
+    
+    public void SeleccioneNivel()
     {
         SceneManager.LoadScene(1);
     }
-    public void NivelDos()
+    public void NivelUno()
     {
         SceneManager.LoadScene(2);
     }
-    public void NivelTres()
+    public void NivelDos()
     {
         SceneManager.LoadScene(3);
+    }
+    public void NivelTres()
+    {
+        SceneManager.LoadScene(4);
     }
 
     
